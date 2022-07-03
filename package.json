@@ -1,0 +1,38 @@
+{
+  "name": "dhakadcinema",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.1.0",
+    "express-rate-limit": "^5.5.1",
+    "helmet": "^4.6.0",
+    "hpp": "^0.2.3",
+    "install": "^0.13.0",
+    "joi": "^17.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.13",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.1",
+    "npm": "^8.1.4",
+    "passport": "^0.5.0",
+    "passport-jwt": "^4.0.0",
+    "promisify": "0.0.3",
+    "sharp": "^0.29.3",
+    "slugify": "^1.6.3",
+    "validator": "^13.7.0",
+    "xss-clean": "^0.1.1"
+  }
+}
